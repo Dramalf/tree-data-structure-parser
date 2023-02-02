@@ -40,4 +40,7 @@ export default class TreeParser{
     getRootValue=()=>{
         return this.root
     }
+    setChildrenKey=(childrenKey:string)=>{
+        this.childrenKey=childrenKey
+    }
 }
